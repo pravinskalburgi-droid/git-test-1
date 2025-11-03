@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Test2
+name: Test3
 
 # Controls when the workflow will run
 on:
@@ -27,6 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name:   my exp first
-        run: ech Hello, world!
+        run: echo Hello, world!
+        run: apt install python3-pip
 
   
